@@ -1,0 +1,314 @@
+body{
+    font-size: 15px;
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+ .dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+/* Header */
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px; 
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header #branding h2{
+    float: left;
+}
+header #branding img{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px  ;
+}
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+header .current a{
+    color: orangered;
+}
+header a:hover{
+    color: #13044e;
+    font-weight: bold;
+}
+ /* showcase */
+ #showcase{
+    min-height: 400px;
+    background: url(../img/download\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+ }
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: blue;
+}
+#showcase p{
+    font-size: 20px ;
+    color: red;
+    font-weight: bolder;
+}
+/* Newsletters */
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+#newsletter h1{
+    float: left;
+}
+#programs{
+    background-color: blue;
+    padding: 3px;
+    margin: 0;
+}
+#programs p{
+    text-align: center;
+    font-size: 20px;
+    color: #cccccc;
+    
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img{
+   width: 90px; 
+}
+footer{
+    background: #e8491d;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
+/* Sideba */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+/* Main-col */
+article#main-col{
+    float: left;
+    width: 65%;
+}
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+.form-function{
+    background-color: #9b75b6;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* min-height: 100vh; */
+    margin: 0;
+    /* align-items:center; */
+}
+.container1{
+    margin-top: 150px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.header{
+    background-color: #f7f77f;
+    border-bottom: 2px solid;
+    border-color: #f0f0f0;
+    padding: 20px 40px;
+}
+.header h2{
+    margin: 0;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+    display: inline;
+    margin-bottom: 10px;
+}
+.form-control input{
+    border: 3px solid;
+    border-color: #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control.success input{
+    border-color: rgb(44, 151, 44);
+}
+.form-control.error input{
+    border-color: red;
+}
+.form-control.error small{
+    color: red;
+    visibility: visible;
+}
+.form-control small{
+    color: red;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form button{
+    color: #fff;
+    background-color: #13044e;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px bold;
+    border-radius: 20px;
+    border: 2px solid #8e44;
+    display: block;
+    cursor: pointer;
+}
+aside a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+aside a:hover{
+    color: red;
+}
+article #main-payment{
+    float: left;
+    width: 50%;
+}
+#container{
+    margin-top: 50px;
+}
+section #main h3{
+    font-family: sans-serif;
+}
+.atm{
+    background-color: rgb(189, 183, 183);
+    margin-right: 300px;
+    padding: 15px;
+    border: #e8491d 3px solid;
+    border-radius: 10px;
+}
+.pay{
+    margin-left: 600px;
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: Impact;
+    background: rgb(13, 137, 168);
+    border-radius: 20px;
+    border: rgb(13, 137, 168);
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+.atm h4{
+    text-align: right;
+    font-size: 20px;
+    margin:0%;
+}
+div .atm label, div .atm ::placeholder, div .atm .date{
+    color: rgb(159, 135, 173)
+}
+div .atm input{
+    border: none;
+    background: none;
+    border-bottom: rgb(159, 135, 173) 2px solid;
+    width: 80%;
+}
+#dark input{
+    border-radius: 10px;
+    padding: 5px;
+    width: 45%;
+}
+#main-col{
+    margin-top: 10px;
+}
+#dark textarea{
+    float: right;
+}
